@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-main grid" style="
+        display: flex;
+        flex-direction: row;    
+        ">
+            <div class="left-section">
+                <div>
+                    <img src="images/header-logo.svg" width="150px" alt="">
+                </div>
+                
+                <div class="dropdown">
+                    <h3>Movies</h3>
+                    <div class="dropdown-content">
+                      <a href="#">Popular</a>
+                      <a href="#">Now Playing</a>
+                      <a href="#">Upcoming</a>
+                      <a href="#">Top Rated</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <h3>TV Shows</h3>
+                    <div class="dropdown-content">
+                      <a href="#">Popular</a>
+                      <a href="#">Airing Today</a>
+                      <a href="#">On TV</a>
+                      <a href="#">Top Rated</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <h3>People</h3>
+                    <div class="dropdown-content">
+                      <a href="#">Popular People</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <h3>More</h3>
+                    <div class="dropdown-content">
+                      <a href="#">Discussion</a>
+                      <a href="#">Leaderboard</a>
+                      <a href="#">Support</a>
+                      <a href="#">API</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="middle-section"></div>
+            <div class="right-section">
+                <div>
+                    <span class="material-symbols-outlined">
+                        add
+                    </span>
+                </div>
+                <div>
+                    <button>EN</button>
+                </div>
+                <h2>Login</h2>
+                <h2>Join TMDB</h2>
+                <span style="color: lightblue;" class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <div class="home">
+        <div class="home-text">
+            <h2>Welcome.</h2>
+            <h3>Millions of movies, TV shows and people to discover. Explore now.</h3>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 50px 1040px 100px;">
+            <div></div>
+            <div class="search-bar-section">
+                <input class="input-box" type="text" placeholder="Search for a movie,tv Show,person.....">
+            </div>
+            <div class="search-button-section">
+                <button>Search</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="trending-section">
+
+        <div style="
+         display: grid;
+         grid-template-columns: 120px 180px;   
+        ">
+            <h2>Trending</h2>
+
+            <div class="main-container" style="display: grid; grid-template-columns: 1fr 1fr;">
+                <div style="background-color: rgb(3,37,65); border-radius: 30px;">
+                    <h4 style="border-radius: 30px;padding: 5px;text-align: center;color: white;">Today</h4>
+                </div>
+                <h4 style="text-align: center;color: black; padding: 5px;">This Week</h4>
+            </div>
+        </div>
+
+        <div class="trending-posters">
+            <div style="
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            column-gap: 20px;
+            ">
+                <div style="flex: 1;">
+                    <div style="position: relative;">
+                        <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                        <img src="images/trending/trending1.jpg" width="100%" height="100%" alt="">
+                    </div>
+
+                    <h3>Dungeons & Dragons: Honor Among Thieves</h3>
+                    <p>Mar 23, 2023</p>
+                </div>
+                <div style="flex: 1;">
+                    <div style="position: relative;">
+                        <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                        <img src="images/trending/trending2.jpg" width="100%" height="100%" alt="">
+                    </div>
+
+                    <h3>The Pope's Exorcist</h3>
+                    <p>Apr 05, 2023</p>
+                </div>
+                <div style="flex: 1;">
+                    <div style="position: relative;">
+                        <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                        <img src="images/trending/trending3.jpg" width="100%" height="100%" alt="">
+                    </div>
+
+                    <h3>Guardians of the Galaxy Volume 3</h3>
+                    <p>May 03, 2023</p>
+                </div>
+                <div style="flex: 1;">
+                    <div style="position: relative;">
+                        <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                        <img src="images/trending/trending4.jpg" width="100%" height="100%" alt="">
+                    </div>
+
+                    <h3>Renfield</h3>
+                    <p>Apr 07, 2023</p>
+                </div>
+                <div style="flex: 1;">
+                    <div style="position: relative;">
+                        <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                        <img src="images/trending/trending5.jpg" width="100%" height="100%" alt="">
+                    </div>
+
+                    <h3>Queen Charlotte: A Bridgerton Story</h3>
+                    <p>May 04, 2023</p>
+                </div>
+                <div style="flex: 1;">
+                    <div style="position: relative;">
+                        <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                        <img src="images/trending/trending6.jpg" width="100%" height="100%" alt="">
+                    </div>
+
+                    <h3>Peter Pan & Wendy</h3>
+                    <p>Apr 20, 2023</p>
+                </div>
+                <div style="flex: 1;">
+                    <div style="position: relative;">
+                        <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                        <img src="images/trending/trending7.jpg" width="100%" height="100%" alt="">
+                    </div>
+
+                    <h3>Star Wars: Visions</h3>
+                    <p>Sep 22, 2021</p>
+                </div>
+                <div style="flex: 1;">
+                    <div style="position: relative;">
+                        <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                        <img src="images/trending/trending8.jpg" width="100%" height="100%" alt="">
+                    </div>
+
+                    <h3>The Super Mario Bros. Movie</h3>
+                    <p>Apr 05, 2023</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="latest-trailer-section">
+        <div class="latest-trailer-heading" style="
+        display: grid;
+        grid-template-columns: 80px 1fr 1fr;
+        ">
+            <div></div>
+            <div style="
+                display: grid;
+                grid-template-columns: 180px 1fr;
+            ">
+                <div>
+                    <h2 style="font-size: 24px;">Latest Trailer</h2>
+                </div>
+
+                <div class="main-container" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">
+                    <div style="background-color: #01c6ac; border-radius: 30px;">
+                        <h4 style="border-radius: 30px;padding: 5px;text-align: center;color: white;">Streaming</h4>
+                    </div>
+                    <h4 style="text-align: center;color: rgb(255, 255, 255); padding: 5px; font-size: 16px;">On Tv</h4>
+                    <h4 style="text-align: center;color: rgb(255, 255, 255); padding: 5px; font-size: 16px;">For Rent
+                    </h4>
+                    <h4 style="text-align: center;color: rgb(255, 255, 255); padding: 5px; font-size: 16px;">In Theaters
+                    </h4>
+                </div>
+            </div>
+            <div></div>
+
+        </div>
+
+
+
+        <div class="trailer-info" style="display: flex; flex-direction: row;column-gap: 20px;">
+            <div style="position: relative;">
+                <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                <img class="play-button" src="images/play_arrow_FILL1_wght700_GRAD200_opsz48.png"
+                    style="width: 70px; position: absolute; left: 110px; top: 55px; filter: invert(100%);" alt="">
+                <img src="images/latest-trailer/trailer1.jpg" style="display: inline-block;" alt="">
+                <h3>Maggie Simpson in "Rogue Not<br> Quite One"</h3>
+                <p>Now Streaming</p>
+            </div>
+            <div style="position: relative;">
+                <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                <img class="play-button" src="images/play_arrow_FILL1_wght700_GRAD200_opsz48.png"
+                    style="width: 70px; position: absolute; left: 110px; top: 55px; filter: invert(100%);" alt="">
+                <img src="images/latest-trailer/trailer2.jpg" style="display: inline-block;" alt="">
+                <h3>Black Mirror</h3>
+                <p>Season 6 Official Teaser</p>
+            </div>
+            <div style="position: relative;">
+                <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                <img class="play-button" src="images/play_arrow_FILL1_wght700_GRAD200_opsz48.png"
+                    style="width: 70px; position: absolute; left: 110px; top: 55px; filter: invert(100%);" alt="">
+                <img src="images/latest-trailer/trailer3.jpg" style="display: inline-block;" alt="">
+                <h3>The Witcher</h3>
+                <p>Season 3 Official Teaser</p>
+            </div>
+            <div style="position: relative;">
+                <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                <img class="play-button" src="images/play_arrow_FILL1_wght700_GRAD200_opsz48.png"
+                    style="width: 70px; position: absolute; left: 110px; top: 55px; filter: invert(100%);" alt="">
+                <img src="images/latest-trailer/trailer4.jpg" style="display: inline-block;" alt="">
+                <h3>Dr. Romantic</h3>
+                <p>Dr. Romantic 3 | Teaser | Disney+ Singapore</p>
+            </div>
+
+            <div style="position: relative;">
+                <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                <img class="play-button" src="images/play_arrow_FILL1_wght700_GRAD200_opsz48.png"
+                    style="width: 70px; position: absolute; left: 110px; top: 55px; filter: invert(100%);" alt="">
+                <img src="images/latest-trailer/trailer5.jpg" style="display: inline-block;" alt="">
+                <h3>Ponyo</h3>
+                <p>All Episodes Now Streaming</p>
+            </div>
+
+            <div style="position: relative;">
+                <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                <img class="play-button" src="images/play_arrow_FILL1_wght700_GRAD200_opsz48.png"
+                    style="width: 70px; position: absolute; left: 110px; top: 55px; filter: invert(100%);" alt="">
+                <img src="images/latest-trailer/trailer6.jpg" style="display: inline-block;" alt="">
+                <h3>The Tailor</h3>
+                <p>Official Trailer [Subtitled]</p>
+            </div>
+
+            <div style="position: relative;">
+                <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                <img class="play-button" src="images/play_arrow_FILL1_wght700_GRAD200_opsz48.png"
+                    style="width: 70px; position: absolute; left: 110px; top: 55px; filter: invert(100%);" alt="">
+                <img src="images/latest-trailer/trailer7.jpg" style="display: inline-block;" alt="">
+                <h3>The Mandalorian</h3>
+                <p>
+                    <All Episodes Now Streaming/p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="popular-section">
+        <div class="latest-trailer-heading" style="
+        display: grid;
+        grid-template-columns: 80px 1fr 1fr;
+        ">
+            <div></div>
+            <div style="
+                display: grid;
+                grid-template-columns: 188px 1fr;
+            ">
+                <div>
+                    <h2 style="font-size: 24px;">What's Popular</h2>
+                </div>
+
+                <div class="main-container" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">
+                    <div style="background-color: rgb(3,37,65); border-radius: 30px;">
+                        <h4 style="border-radius: 30px;padding: 5px;text-align: center;color: white;">Streaming</h4>
+                    </div>
+                    <h4 style="text-align: center;color: rgb(0, 0, 0); padding: 5px; font-size: 16px;">On Tv</h4>
+                    <h4 style="text-align: center;color: rgb(0, 0, 0); padding: 5px; font-size: 16px;">For Rent</h4>
+                    <h4 style="text-align: center;color: rgb(0, 0, 0); padding: 5px; font-size: 16px;">In Theaters</h4>
+                </div>
+            </div>
+            <div></div>
+
+        </div>
+
+
+        <div class="popular-posters">
+            <div class="popular-info" style="display: flex; flex-direction: row;column-gap: 20px;">
+                <div style="position: relative;">
+                    <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                    <img src="images/popular/popular1.jpg" width="180px" alt="">
+                    <h2>Kill Boksoon</h2>
+                    <p>Feb 17, 2023</p>
+                </div>
+                <div style="position: relative;">
+                    <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                    <img src="images/popular/popular2.jpg" width="180px" alt="">
+                    <h2>Kill Boksoon</h2>
+                    <p>Feb 17, 2023</p>
+                </div>
+                <div style="position: relative;">
+                    <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                    <img src="images/popular/popular3.jpg" width="180px" alt="">
+                    <h2>Kill Boksoon</h2>
+                    <p>Feb 17, 2023</p>
+                </div>
+                <div style="position: relative;">
+                    <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                    <img src="images/popular/popular4.jpg" width="180px" alt="">
+                    <h2>Kill Boksoon</h2>
+                    <p>Feb 17, 2023</p>
+                </div>
+
+                <div style="position: relative;">
+                    <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                    <img src="images/popular/popular5.jpg" width="180px" alt="">
+                    <h2>Kill Boksoon</h2>
+                    <p>Feb 17, 2023</p>
+                </div>
+                <div style="position: relative;">
+                    <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                    <img src="images/popular/popular6.jpg" width="180px" alt="">
+                    <h2>Kill Boksoon</h2>
+                    <p>Feb 17, 2023</p>
+                </div>
+                <div style="position: relative;">
+                    <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+
+                    <img src="images/popular/popular7.jpg" width="180px" alt="">
+                    <h2>Kill Boksoon</h2>
+                    <p>Feb 17, 2023</p>
+                </div>
+                <div style="position: relative;">
+                    <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                    <img src="images/popular/popular8.jpg" width="180px" alt="">
+                    <h2>Kill Boksoon</h2>
+                    <p>Feb 17, 2023</p>
+                </div>
+                <div style="position: relative;">
+                    <img src="images/three-dots.svg" style="position: absolute; top: 3px; right: 3px; width: 30px; background: rgba(0, 0, 0, 0);" alt="">
+                    <img src="images/popular/popular9.jpg" width="180px" alt="">
+                    <h2>Kill Boksoon</h2>
+                    <p>Feb 17, 2023</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="banner3">
+        <div style="display: flex; flex-direction: rows;">
+            <div class="first-div" style="flex: 3;">
+                <h1>Join Today</h1>
+                <p>Get access to maintain your own custom personal lists, track what you've seen and search and filter for what to watch next—regardless if it's in theatres, on TV or available on popular streaming services like Netflix, Amazon Prime Video, Hotstar, Voot, and Jio Cinema.</p>
+                <button>Sign Up</button>
+            </div>
+            
+            <div class="second-div" style="flex: 2;">
+                <ul>
+                    <li>Enjoy TMDB ad free</li>
+                    <li>Maintain a personal watchlist</li>
+                    <li>Filter by your subscribed streaming services and find something to<br> watch</li>
+                    <li>Log the movies and TV shows you've seen</li>
+                    <li>Build custom lists</li>
+                    <li>Contribute to and improve our database</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="leaderboard-section">
+        <div class="leader-board-heading" style="display: flex;">
+            <h2>Leaderboard</h2>
+            <div>
+                <p>
+                    <span class="green-dot"></span>
+                    All time Edits
+                </p>
+                <p>
+                    <span class="red-dot"></span>
+                    Edits this week
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="profiles" style="display: grid;grid-template-columns: 1fr 1fr;">
+            
+            <div class="profile-one" style="display: flex; flex-direction: row;">
+                <div>
+                    <img style="border-radius: 50%;" src="images/avatar/avarat1.jpg" alt="">
+                </div>
+
+                <div>
+                    <h3>Boom</h3>
+                    <div class="green-line"></div>161,673
+                    <div class="red-line"></div>81,337
+                </div>
+            </div>
+
+            <div class="profile-two">
+                <div style="display: flex; flex-direction: row;">
+                    <div>
+                        <img style="border-radius: 50%;" src="images/avatar/avarat2.jpeg" alt="">
+                    </div>
+    
+                    <div>
+                        <h3>heli5m</h3>
+                        <div class="green-line"></div>161,673
+                        <div class="red-line"></div>81,337
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-three" style="margin-top: 20px;">
+                <div style="display: flex; flex-direction: row;">
+                    <div>
+                        <img style="border-radius: 50%;" src="images/avatar/avarat3.jpg" alt="">
+                    </div>
+    
+                    <div>
+                        <h3>heli5m</h3>
+                        <div class="green-line"></div>161,673
+                        <div class="red-line"></div>81,337
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-four" style="margin-top: 20px;">
+                <div style="display: flex; flex-direction: row;">
+                    <div>
+                        <img style="border-radius: 50%;" src="images/avatar/avarat4.jpg" alt="">
+                    </div>
+    
+                    <div>
+                        <h3>heli5m</h3>
+                        <div class="green-line"></div>161,673<br>
+                        <div class="red-line"></div>81,337
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-five" style="margin-top: 20px;">
+                <div style="display: flex; flex-direction: row;">
+                    <div>
+                        <img style="border-radius: 50%;" src="images/avatar/avarat15.jpg" alt="">
+                    </div>
+    
+                    <div>
+                        <h3>heli5m</h3>
+                        <div class="green-line"></div>161,673<br>
+                        <div class="red-line"></div>81,337
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-six" style="margin-top: 20px;">
+                <div style="display: flex; flex-direction: row;">
+                    <div>
+                        <img style="border-radius: 50%;" src="images/avatar/avarat6.jpg" alt="">
+                    </div>
+    
+                    <div>
+                        <h3>heli5m</h3>
+                        <div class="green-line"></div>161,673<br>
+                        <div class="red-line"></div>81,337
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="profile-seven" style="margin-top: 20px;">
+                <div style="display: flex; flex-direction: row;">
+                    <div>
+                        <img style="border-radius: 50%;" src="images/avatar/avarat1.jpg" alt="">
+                    </div>
+    
+                    <div>
+                        <h3>heli5m</h3>
+                        <div class="green-line"></div>161,673<br>
+                        <div class="red-line"></div>81,337
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-eight" style="margin-top: 20px;">
+                <div style="display: flex; flex-direction: row;">
+                    <div>
+                        <img style="border-radius: 50%;" src="images/avatar/avarat3.jpg" alt="">
+                    </div>
+    
+                    <div>
+                        <h3>heli5m</h3>
+                        <div class="green-line"></div>161,673<br>
+                        <div class="red-line"></div>81,337
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div style="display: grid; grid-template-columns: 300px 1fr 200px;">
+            <div></div>
+            <div style="display: grid; grid-template-columns: 190px 1fr">
+                <div style="margin-top: 40px;">
+                    <div style="padding-left: 60px;">
+                        <img src="images/footer-logo2.svg" width="120" alt="">
+                    </div>
+                    <div>
+                        <button>Join the community</button>
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; padding-top: 55px; padding-left: 30px;">
+                    <div>
+                        <h3>The BASICS</h3>
+                        <p><a href=""></a>About TMDB</p>
+                        <p><a href=""></a>Contact Us</p>
+                        <p><a href=""></a>Support For...</p>
+                        <p><a href=""></a>API</p>
+                        <p><a href=""></a>System Status</p>
+                    </div>
+                    <div>
+                        <h3>GET INVOLVED</h3>
+                        <p><a href=""></a>Contribution...</p>
+                        <p><a href=""></a>Add New Movie</p>
+                        <p><a href=""></a>Add New Tv S...</p>
+
+                    </div>
+                    <div>
+                        <h3>COMMUNITY</h3>
+                        <p><a href=""></a>Guidelines</p>
+                        <p><a href=""></a>Discussion</p>
+                        <p><a href=""></a>Leaderboard</p>
+                        <p><a href=""></a>Twitter</p>
+
+                    </div>
+                    <div>
+                        <h3>LEGAL</h3>
+                        <p><a href=""></a>Terms of use</p>
+                        <p><a href=""></a>API terms of use</p>
+                        <p><a href=""></a>Privacy policy</p>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
